@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Sidebar</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body class="bg-light">
+
+  header class="product-header py-5 bg-dark text-white position-relative text-center">
+  
+  <button class="btn btn-outline-light position-absolute top-0 start-0 m-3" 
+          type="button" 
+          data-bs-toggle="offcanvas" 
+          data-bs-target="#offcanvasSidebar" 
+          aria-controls="offcanvasSidebar">
+    <i class="bi bi-grid"></i> Меню
+  </button>
+
+  <h1 class="display-5 fw-bold mt-4">Створено для інженерів</h1>
+  <p class="lead mb-4">Оренда сайтів з Aperture</p>
+  
+  <a href="#" class="btn btn-primary btn-lg px-4">Дізнатись більше</a>
+  <a href="Price.html" class="btn btn-outline-light btn-lg px-4 ms-2">Купити</a>
+</header>
+
+  <main class="container my-5">
+    <section class="product-features row text-center mb-5">
+      <div class="col-md-4 mb-4">
+        <div class="feature-icon mb-2 fs-2 text-primary">
+          <i class="bi bi-cpu"></i>
+        </div>
+        <h3>Круті можливості</h3>
+        <p>Короткий опис функції, щоб показати її переваги для користувача.</p>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="feature-icon mb-2 fs-2 text-primary">
+          <i class="bi bi-people"></i>
+        </div>
+        <h3>Командна робота</h3>
+        <p>Короткий опис функції, щоб показати її переваги для користувача.</p>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="feature-icon mb-2 fs-2 text-primary">
+          <i class="bi bi-gear"></i>
+        </div>
+        <h3>Інструменти для розробників</h3>
+        <p>Короткий опис функції, щоб показати її переваги для користувача.</p>
+      </div>
+    </section>
+
+    <section class="row align-items-center mb-5">
+      <div class="col-md-6">
+        <h2 class="fw-bold">Заголовок</h2>
+        <p class="lead">І ще більш дотепний підзаголовок.</p>
+      </div>
+      <div class="col-md-6 text-center">
+        <img src="https://getbootstrap.com/docs/5.3/examples/product/product.png" alt="Product" class="img-fluid rounded shadow">
+      </div>
+    </section>
+  </main>
+
+  <footer class="product-footer bg-dark text-white py-4">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 mb-3">
+          <h5>Можливості</h5>
+          <ul class="list-unstyled">
+            <li>Круті можливості</li>
+            <li>Випадкова функція</li>
+            <li>Командна робота</li>
+            <li>Інструменти для розробників</li>
+            <li>Ще одна</li>
+            <li>Останній раз</li>
+          </ul>
+        </div>
+        <div class="col-md-4 mb-3">
+          <h5>Ресурси</h5>
+          <ul class="list-unstyled">
+            <li>Назва ресурсу</li>
+            <li>Ресурс</li>
+            <li>Ще один ресурс</li>
+            <li>Фінальний ресурс</li>
+          </ul>
+        </div>
+        <div class="col-md-4 mb-3">
+          <h5>Про нас</h5>
+          <ul class="list-unstyled">
+            <li>Команда</li>
+            <li>Локації</li>
+            <li>Конфіденційність</li>
+            <li>Умови</li>
+          </ul>
+        </div>
+      </div>
+      <small>© 2025 Aperture</small>
+    </div>
+  </footer>
+
+  
+  <div class="offcanvas offcanvas-start text-bg-dark" tabindex="-1" id="offcanvasSidebar" aria-labelledby="offcanvasSidebarLabel" style="width: 280px;">
+    <div class="offcanvas-header border-bottom border-secondary">
+      <div class="d-flex align-items-center gap-2">
+        <img src="https://github.com/mdo.png" alt="User" width="40" height="40" class="rounded-circle border border-light">
+        <div>
+          <h5 class="offcanvas-title mb-0" id="offcanvasSidebarLabel">Головна панель</h5>
+        </div>
+      </div>
+      <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body px-0 pt-3">
+      <ul class="nav nav-pills flex-column mb-auto">
+        <li><a href="#" class="nav-link text-white active"><i class="bi bi-house me-2"></i>Дім</a></li>
+        <li><a href="#" class="nav-link text-white"><i class="bi bi-speedometer2 me-2"></i>Приладова панель</a></li>
+        <li><a href="#" class="nav-link text-white"><i class="bi bi-table me-2"></i>Замовлення</a></li>
+        <li><a href="#" class="nav-link text-white"><i class="bi bi-grid me-2"></i>Вироби</a></li>
+        <li><a href="#" class="nav-link text-white"><i class="bi bi-people me-2"></i>Покупці</a></li>
+      </ul>
+      <hr class="my-3 border-light">
+      <div class="px-3">
+        <div class="dropdown">
+          <a href="#" class="d-flex align-items-center text-white text-decoration-none dropdown-toggle" data-bs-toggle="dropdown">
+            <img src="https://github.com/mdo.png" alt="" width="32" height="32" class="rounded-circle me-2">
+            <strong>Ввійти</strong>
+          </a>
+          <ul class="dropdown-menu dropdown-menu-dark text-small shadow">
+            <li><a class="dropdown-item" href="#">Новий проект</a></li>
+            <li><a class="dropdown-item" href="#">Налаштування</a></li>
+            <li><a class="dropdown-item" href="#">Профіль</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Вийти</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>

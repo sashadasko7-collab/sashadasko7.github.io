@@ -1,0 +1,41 @@
+style
+  body {
+    background: linear-gradient(135deg, #f8fafc 60%, #e9ecef 100%);
+    font-family: 'Segoe UI', 'Roboto', 'Arial', sans-serif;
+  }
+  .product-header {
+    background: #343a40;
+    color: #fff;
+    padding: 3rem 0 2rem 0;
+    text-align: center;
+    border-radius: 0 0 2rem 2rem;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+  }
+  .product-features {
+    background: #fff;
+    border-radius: 1rem;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.04);
+    padding: 2rem;
+    margin-top: -2rem;
+    margin-bottom: 2rem;
+  }
+  .feature-icon {
+    width: 48px;
+    height: 48px;
+    background: #0d6efd;
+    color: #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  .product-footer {
+    background: #343a40;
+    color: #fff;
+    padding: 2rem 0;
+    text-align: center;
+    border-radius: 2rem 2rem 0 0;
+    margin-top: 3rem;
+  }
